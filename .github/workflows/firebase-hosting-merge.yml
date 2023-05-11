@@ -10,12 +10,12 @@ jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Cheackouts
+        uses: actions/checkout@v3
       - name: Install dependencies
         run: |
           ls
           npm install
-      - name: Cheackouts
-        uses: actions/checkout@v3
       - name: Build
         run: npm run build
       - name: Upload Artifact
