@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: npm install
+        run: cd /home/runner/work/strapitemplate02/package.json & npm install
       - name: Cheackouts
         uses: actions/checkout@v3
       - name: Build
