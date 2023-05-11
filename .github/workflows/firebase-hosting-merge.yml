@@ -12,7 +12,8 @@ jobs:
     steps:
       - name: Install dependencies
         run: | 
-          cd /home/runner/work/strapitemplate02/
+          cd /home/runner/work/
+          ls
           npm install
       - name: Cheackouts
         uses: actions/checkout@v3
