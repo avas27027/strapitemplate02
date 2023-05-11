@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shopping_bags",
+  "info": {
+    "displayName": "Bag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Quantity": {
+      "type": "integer"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
+    }
+  }
+}

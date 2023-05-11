@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_shopping_caracteristics",
+  "info": {
+    "displayName": "Caracteristics"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "enumeration",
+      "enum": [
+        "XS",
+        "S",
+        "M",
+        "L",
+        "XL"
+      ]
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "black",
+        "red",
+        "blue",
+        "green",
+        "yellow",
+        "brown",
+        "violet"
+      ]
+    }
+  }
+}

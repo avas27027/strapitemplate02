@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shopping_bags",
+  "info": {
+    "singularName": "shopping-bag",
+    "pluralName": "shopping-bags",
+    "displayName": "ShoppingBag"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "shopping_bag"
+    },
+    "Products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shopping.bag"
+    }
+  }
+}

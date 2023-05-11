@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "features_pages",
+  "info": {
+    "singularName": "features-page",
+    "pluralName": "features-pages",
+    "displayName": "FeaturesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Feature": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "front.feature"
+    }
+  }
+}
