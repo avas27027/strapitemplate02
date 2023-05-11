@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_front_footers",
+    "info": {
+        "displayName": "Footer"
+    },
+    "options": {},
+    "attributes": {
+        "subtitle": {
+            "type": "string"
+        },
+        "link": {
+            "type": "component",
+            "repeatable": true,
+            "component": "front.link"
+        }
+    }
+}

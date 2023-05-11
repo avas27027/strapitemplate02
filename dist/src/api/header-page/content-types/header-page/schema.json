@@ -1,0 +1,32 @@
+{
+    "kind": "singleType",
+    "collectionName": "header_pages",
+    "info": {
+        "singularName": "header-page",
+        "pluralName": "header-pages",
+        "displayName": "HeaderPage"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Title": {
+            "type": "string"
+        },
+        "Desc": {
+            "type": "text"
+        },
+        "HeaderPicture": {
+            "allowedTypes": [
+                "images",
+                "videos"
+            ],
+            "type": "media",
+            "multiple": false
+        },
+        "link": {
+            "type": "string"
+        }
+    }
+}

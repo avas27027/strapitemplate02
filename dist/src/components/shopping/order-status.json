@@ -1,0 +1,17 @@
+{
+    "collectionName": "components_shopping_order_statuses",
+    "info": {
+        "displayName": "OrderStatus"
+    },
+    "options": {},
+    "attributes": {
+        "Sended": {
+            "type": "boolean"
+        },
+        "product": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::product.product"
+        }
+    }
+}

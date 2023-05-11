@@ -1,0 +1,20 @@
+{
+    "kind": "singleType",
+    "collectionName": "q_and_a_pages",
+    "info": {
+        "singularName": "q-and-a-page",
+        "pluralName": "q-and-a-pages",
+        "displayName": "Q&APage"
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "question": {
+            "type": "component",
+            "repeatable": true,
+            "component": "front.q-and-a"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "kind": "collectionType",
+    "collectionName": "category_products",
+    "info": {
+        "singularName": "category-product",
+        "pluralName": "category-products",
+        "displayName": "CategoryProduct",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "Name": {
+            "type": "string"
+        },
+        "subcategory_products": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::subcategory-product.subcategory-product",
+            "mappedBy": "category_product"
+        }
+    }
+}

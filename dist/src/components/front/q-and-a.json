@@ -1,0 +1,15 @@
+{
+    "collectionName": "components_front_q_and_as",
+    "info": {
+        "displayName": "Q&A"
+    },
+    "options": {},
+    "attributes": {
+        "pregunta": {
+            "type": "string"
+        },
+        "respuesta": {
+            "type": "text"
+        }
+    }
+}

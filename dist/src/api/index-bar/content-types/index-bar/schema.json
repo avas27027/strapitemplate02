@@ -1,0 +1,21 @@
+{
+    "kind": "singleType",
+    "collectionName": "index_bars",
+    "info": {
+        "singularName": "index-bar",
+        "pluralName": "index-bars",
+        "displayName": "IndexBar",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": true
+    },
+    "pluginOptions": {},
+    "attributes": {
+        "section": {
+            "type": "component",
+            "repeatable": true,
+            "component": "front.index-link"
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "collectionName": "components_front_index_links",
+    "info": {
+        "displayName": "indexLink"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string"
+        },
+        "link": {
+            "type": "enumeration",
+            "enum": [
+                "/login",
+                "/blog"
+            ]
+        }
+    }
+}
