@@ -11,8 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies
-        run: | 
-          cd /home/runner/work/strapitemplate02/strapitemplate02
+        run: |
           ls
           npm install
       - name: Cheackouts
