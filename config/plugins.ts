@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
       config: {
         provider: "strapi-provider-firebase-storage",
         providerOptions: {
-          serviceAccount: require("/Users/alvarosotelo/Documents/GitHub/strapi-template-02/strapi-test-b1d0d-firebase-adminsdk-238fk-b7674cea58.json"),
+          serviceAccount: require("../strapi-test-b1d0d-firebase-adminsdk-238fk-b7674cea58.json"),
           // Custom bucket name
           bucket: env("STORAGE_BUCKET_URL"),
           sortInStorage: true, // true | false
