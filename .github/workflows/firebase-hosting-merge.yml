@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: | 
-          cd /home/runner/work/
+          cd /home/runner/work/strapitemplate02/
           ls
           npm install
       - name: Cheackouts
