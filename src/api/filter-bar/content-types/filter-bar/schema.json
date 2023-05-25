@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "filter_bars",
+  "info": {
+    "singularName": "filter-bar",
+    "pluralName": "filter-bars",
+    "displayName": "FilterBar",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "doubleRange": {
+      "type": "component",
+      "repeatable": true,
+      "component": "search-engine.filter-range"
+    },
+    "checkbox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "search-engine.filter-checkbox"
+    },
+    "subcategoryFilterName": {
+      "type": "enumeration",
+      "enum": [
+        "price",
+        "caracteristics.color",
+        "caracteristics.size",
+        "subcategory_product.Name"
+      ]
+    }
+  }
+}

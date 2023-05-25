@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_search_engine_filter_option_checkboxes",
+  "info": {
+    "displayName": "filterOptionCheckbox"
+  },
+  "options": {},
+  "attributes": {
+    "option": {
+      "type": "string"
+    }
+  }
+}

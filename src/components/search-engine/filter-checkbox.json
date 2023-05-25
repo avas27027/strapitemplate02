@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_search_engine_filter_checkboxes",
+  "info": {
+    "displayName": "filterCheckbox",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "checkbox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "search-engine.filter-option-checkbox"
+    },
+    "title": {
+      "type": "string"
+    },
+    "filterName": {
+      "type": "enumeration",
+      "enum": [
+        "price",
+        "caracteristics.color",
+        "caracteristics.size",
+        "subcategory_product.Name"
+      ]
+    }
+  }
+}
