@@ -33,10 +33,15 @@
                 "videos"
             ]
         },
-        "caracteristics": {
-            "type": "component",
-            "repeatable": false,
-            "component": "shopping.caracteristics"
+        "colors_ref": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::colors-ref.colors-ref"
+        },
+        "size_ref": {
+            "type": "relation",
+            "relation": "oneToOne",
+            "target": "api::size-ref.size-ref"
         }
     }
 }

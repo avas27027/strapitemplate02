@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "size_refs",
+  "info": {
+    "singularName": "size-ref",
+    "pluralName": "size-refs",
+    "displayName": "SizeRef",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": false
+    }
+  },
+  "attributes": {
+    "uniqueSizeName": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "sizeName": {
+      "type": "string",
+      "unique": true
+    }
+  }
+}
