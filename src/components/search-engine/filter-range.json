@@ -9,11 +9,6 @@
     "title": {
       "type": "string"
     },
-    "range": {
-      "type": "component",
-      "repeatable": false,
-      "component": "search-engine.filter-option-range"
-    },
     "filterName": {
       "type": "enumeration",
       "enum": [
@@ -22,6 +17,15 @@
         "caracteristics.size",
         "subcategory_product.Name"
       ]
+    },
+    "min": {
+      "type": "decimal"
+    },
+    "max": {
+      "type": "decimal"
+    },
+    "step": {
+      "type": "decimal"
     }
   }
 }
