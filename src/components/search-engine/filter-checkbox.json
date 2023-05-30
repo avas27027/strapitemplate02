@@ -1,7 +1,7 @@
 {
   "collectionName": "components_search_engine_filter_checkboxes",
   "info": {
-    "displayName": "filterColor",
+    "displayName": "filterCheckbox",
     "description": ""
   },
   "options": {},
@@ -9,13 +9,15 @@
     "title": {
       "type": "string"
     },
-    "colors_refs": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::colors-ref.colors-ref"
-    },
     "filterName": {
       "type": "string"
+    },
+    "api": {
+      "type": "enumeration",
+      "enum": [
+        "/api/size-refs",
+        "/api/colors-refs"
+      ]
     }
   }
 }

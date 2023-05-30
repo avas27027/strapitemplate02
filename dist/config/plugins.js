@@ -47,4 +47,8 @@ module.exports = ({ env }) => ({
         },
     },
     // ...
+    'size-picker': {
+        enabled: true,
+        resolve: './src/plugins/size-picker'
+    },
 });

@@ -16,7 +16,8 @@
     "@strapi/strapi": "4.10.4",
     "pg": "8.8.0",
     "strapi-plugin-meilisearch": "^0.9.1",
-    "strapi-provider-firebase-storage": "^1.0.3"
+    "strapi-provider-firebase-storage": "^1.0.3",
+    "swr": "^2.1.5"
   },
   "author": {
     "name": "A Strapi developer"
@@ -28,5 +29,8 @@
     "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/styled-components": "^5.1.26"
+  }
 }

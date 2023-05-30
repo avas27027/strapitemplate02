@@ -17,9 +17,9 @@
       "repeatable": false,
       "component": "search-engine.filter-range"
     },
-    "filterColor": {
+    "checkbox": {
       "type": "component",
-      "repeatable": false,
+      "repeatable": true,
       "component": "search-engine.filter-checkbox"
     },
     "subcategoryFilterName": {
@@ -30,11 +30,6 @@
         "caracteristics.size",
         "subcategory_product.Name"
       ]
-    },
-    "filterSize": {
-      "type": "component",
-      "repeatable": false,
-      "component": "search-engine.filter-size"
     }
   }
 }
