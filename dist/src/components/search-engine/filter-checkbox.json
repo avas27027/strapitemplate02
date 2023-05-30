@@ -1,0 +1,23 @@
+{
+    "collectionName": "components_search_engine_filter_checkboxes",
+    "info": {
+        "displayName": "filterCheckbox",
+        "description": ""
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string"
+        },
+        "filterName": {
+            "type": "string"
+        },
+        "api": {
+            "type": "enumeration",
+            "enum": [
+                "/api/size-refs",
+                "/api/colors-refs"
+            ]
+        }
+    }
+}

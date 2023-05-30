@@ -1,0 +1,34 @@
+{
+    "kind": "collectionType",
+    "collectionName": "colors_refs",
+    "info": {
+        "singularName": "colors-ref",
+        "pluralName": "colors-refs",
+        "displayName": "ColorsRef",
+        "description": ""
+    },
+    "options": {
+        "draftAndPublish": false
+    },
+    "pluginOptions": {
+        "content-manager": {
+            "visible": false
+        }
+    },
+    "attributes": {
+        "colorName": {
+            "type": "string",
+            "unique": true
+        },
+        "uniqueColorName": {
+            "type": "string",
+            "unique": false,
+            "required": true
+        },
+        "rgb": {
+            "type": "customField",
+            "regex": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
+            "customField": "plugin::color-picker.color"
+        }
+    }
+}
