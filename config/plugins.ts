@@ -3,9 +3,9 @@ module.exports = ({ env }) => ({
     meilisearch: {
         config: {
             // Your meili host
-            host: "https://ms-8aa77a5e31ca-3515.sfo.meilisearch.io",
+            host: "https://ms-3b7d49c8d7d8-3515.sfo.meilisearch.io",
             // Your master key or private key
-            apiKey: "95ddfce9e09294b5ccdf0e9e621724c0ab96bf5c",
+            apiKey: "4bfa3dd77b4454e7596e2e5b5fd1cc27d5ee0c29",
         }
     },
     // ...
